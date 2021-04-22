@@ -1,0 +1,64 @@
+body {
+  background: #EFEEEE;
+  font-family: "Roboto", sans-serif;
+
+  -moz-user-select: none;
+  -khtml-user-select: none;
+  -webkit-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+h1 {
+  font-size: 48pt;
+  margin: 20px;
+}
+
+h1, p {
+  text-align: center;
+}
+
+#calendarSpan {
+  display: flex;
+  align-items: center;
+}
+
+table {
+  margin: auto;
+}
+
+thead {
+  background: #4646B1;
+  color: white;
+  font-size: 14pt;
+}
+
+tbody {
+  /* background: #F9A26C; */
+  /* background: #9BD7D1; */
+  background: #B2B2B2;
+  color: white;
+}
+
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+    padding: 5px;
+}
+
+thead > tr > th, tbody > tr > td {
+  width: 50px;
+  height: 30px;
+}
+
+thead > tr > th > span {
+	padding: 10px;
+}
+
+tbody > tr > td:first-child, tbody > tr > td:last-child {
+  background: #898989;
+}
+
+.empty, .empty:first-child, .empty:last-child {
+  background: #323232;
+}
